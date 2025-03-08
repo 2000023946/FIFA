@@ -1,5 +1,5 @@
 .nav-section{
-    height: 150px;
+    height: 140px;
     left:0px;
     right: 0px;
     top: 0px;
@@ -112,6 +112,7 @@
     flex: 5;
     line-height: 2;
     font-size: 20px;
+
 }
 
 .work-cited{
@@ -129,7 +130,13 @@
     display: flex;
     align-items: center;
 }
-
+.about-text-desp p::first-letter{
+    font-size: 500%;
+    font-weight: 700;
+    line-height: 0.8;
+    margin-right: 5px;
+    float:left;
+}
 .cited-work{
     border: 1px solid black;
     flex: 5;
