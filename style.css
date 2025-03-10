@@ -96,7 +96,7 @@
 #about-img{
     width: 80%;
     height: 80%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .about-text-title{
