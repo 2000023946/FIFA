@@ -31,6 +31,7 @@
     </body>
 
     <script>
+        let error = 0
         const data = {
             'about':[
                 {
@@ -46,7 +47,7 @@
                 {
                     'image':'pic2.png',
                     'title': "Perspectives",
-                    'desp': `Comming Soon!`
+                    'desp': `The new expanded Club World Cup will be first played in the United States and broadcasted this summer. Fans are excited about this new competition between the best football clubs in the world. Though fans are eagerly awaiting this competition, the new Club World Cup has been harshly criticized by professional players, football unions, and domestic league directors. While some players and league directors have remained silent regarding this issue, many have voiced their opinions against FIFA's recent expansion of the tournament. FIFA has dismissed the concerns brought up by the league directors and the professional players, but players and league directors are requesting a change concerning how FIFA conducts its business.`
                 },
             ],
             'exigence': [
@@ -83,7 +84,23 @@
                     'desp': `Professional football players have a very demanding work schedule, having around one month of break from football with some years even less. With the new FIFA Club World Cup, players will now have less time for breaks because the FIFA Club World Cup will take up the time players had for rest in the summer. ESPN reporter Mark Odgen explains that “player workload has been a long-standing issue, with the biggest clubs often in competitions until the final stages and then jetting off for long-distance preseason tours”. This shows that professional footballers are playing more than the average player, and they play additional matches for big pre-season tours, giving them little time for rest. Odgen comments that despite players having around 60 matches each season, “Players have been able to get at least the suggested level of rest-  usually three to four weeks- in between seasons, while every second year would have a blank space on the international calendar for extended recuperation”. Every other year, an international competition is held, and this means that the year the players play an international competition that summer, they would have three weeks of break. However, the following year, there will be no international competition, and the players can enjoy a longer break. This shows that the situation has been balanced with alternating break lengths each year to compensate for increased playing time in one year. The Club World Cup will occur in the year the World Cup and the Continental Cups are not being played, so every four years, players will likely have three years of 3-4 week breaks followed with a longer break in the summer without internation competition. Player fatigue has been a concerning issue in recent times. Professional players have packed schedules, with most playing 60 games or more. `
                 }
             ],
-            'perspective':[]
+            'perspective':[
+                {
+                    'image':'rodri.png',
+                    'title':"Players's Voice",
+                    'desp': `In recent years, football fans have been blessed to watch more matches of their favorite teams play, but professional footballers have been dealt the bad side of the stick with more matches played and less break time, resulting in more player burnout rates and player injury rates. The introduction of the new Club World Cup will increase the packed schedule of the footballers, leading to even fewer breaks. Players have been frustrated because the organizations that run football keep on increasing their work by scheduling more matches without ever asking the players if they want to play more matches. Players want to play matches when they are well-rested so they can perform their best, not when they are exhausted from playing back-to-back games. Rodri believes that eventually, when players are continuously pushed past their limit, there will come a point where this built-up frustration within the players will erupt into a strike. Player frustration can be seen because they are expected to play an average of ~1.3 matches each week, resulting in very little rest periods with increasing player exhaustion and burnout. Coupled with the increase in matches, players also are frustrated because they feel like they have no power in their voices. The players want a reduction in matches, but no matter how much they speak about it in the press conferences the problem is not getting solved. Therefore, they start to feel that they have no voice, and that the organizations who run football are just using them for financial reasons. Players have been pushed to the limit in recent years, and the new Club World Cup increases the problem of overfatigue. When Rodri asserted that a strike could happen, it was not a far-fetched idea because the players felt that nothing they were doing was solving the problem.`
+                },
+                {
+                    'image':'tabes.png',
+                    'title':"League's Voice",
+                    'desp': `In addition to players being frustrated about FIFA’s recent Club World Cup, European League directors and player unions have also shared similar frustration with FIFA. This shows that the whole of European football opposes FIFA’s recent expansion of the Club World Cup. Both La Liga and EPL directors have been open against FIFA and repeatedly shared their concerns towards FIFA of the new Club World Cup. Mathieu Moreuil, director of the English Premier League (EPL), voiced his frustration about FIFA’s conduct toward the EPL, saying, “Enough is enough, we can’t take it anymore.” The EPL director is frustrated because FIFA’s new Club World Cup will affect the scheduling of the Premier League and other European Leagues, forcing directors to reorganize their season schedules in an already jam-packed schedule. Player unions and directors have voiced their opinions towards FIFA, with the only response being silence from FIFA. Player Unions and European Leagues have now jointly sued FIFA, arguing that it is “abusing its right as both tournament organizer and regulator.” They argue that FIFA cannot create new matches without having the consent of the leagues and the unions because the matches that are set by FIFA will affect the scheduling of the league and the players that the unions represent. They feel that FIFA has “abused” its power because it ignored the concerns of the other side and focused on its concerns through the expansion of the Club World Cup. All of Europe, which has football’s largest representation, has taken a stance against FIFA’s new Club World Cup, expressing frustration towards FIFA, arguing that it did not listen to their concerns. FIFA has reasons for the creation of their tournament, and these need to be addressed to understand the story. `
+                },
+                {
+                    'image':'infantino.png',
+                    'title': "FIFA's Voice",
+                    'desp': `FIFA confidently asserts that their new competition will not increase player fatigue. Just like the World Cup and Continental Nations Cup, the Club World Cup will be hosted once every four years during the summer when no matches are being held. Furthermore, only 12 teams across all of Europe will play in the Club World Cup, with each team playing on average ~4 matches (the maximum number of matches is 7 games if they reach the finals, and the minimum is 3 matches). Since the Club World Cup will be held once every four years, teams participating in this competition will add on average an extra match to their calender year. It makes sense that FIFA argues that there will be little effect on the players' welfare and the league scheduling since the tournament will, on average of span four years, lead to an extra match each year. FIFA acknowledges the problem of player fatigue, but they assert that the problem lies mainly in the domestic leagues who schedule 38 matches each season and UEFA Champions league who have increased their matches forcing players to play twice each week, while FIFA only have the Club World cup and World Cup that is both every four years. It shows that matches contributed to FIFA make up around 2% of the overall matches played, and is largely contributed by the increased number of matches in the champions league, and the large amount of matches played in domestic league and domestic cup competitions. FIFA have felt like they have been given too much of the blame because of the timing of their new tournament. FIFA believes that they are not the problem and will not likely contribute to scheduling problems or player welfare problems. `
+                }
+            ]
         }
         const cited = {
             'about':[],
@@ -109,13 +126,23 @@
                     `Sky Sports News. “Do Clubs Want the “Controversial” FIFA Club World Cup?” YouTube, 5 Dec. 2024, www.youtube.com/watch?v=FtjKfmKVuxM&list=TLGGYSSX4vNx9Q4zMTAxMjAyNQ. Accessed 31 Jan. 2025.`
                 ]
             ],
-            'perspective': [],
+            'perspective': [
+                [
+                    `Alcheva, Martina. “World Soccer Talk.” World Soccer Talk, 16 Oct. 2024, worldsoccertalk.com/news/fifa-on-alert-european-leagues-sue-over-2025-club-world-cup/. Accessed 15 Mar. 2025.`
+                ],
+                [
+                    `Bonn, Kyle. “Why Is the New FIFA Club World Cup Controversial? Opposition to Expanded Tournament Explained.” Sportingnews.com, 5 Dec. 2024, www.sportingnews.com/us/soccer/news/why-fifa-club-world-cup-controversial-opposition-expanded/a0416439ca7267c73b5fa194.`
+                ],
+                [
+                    `Garcia, Adriana. “LaLiga Chief Tebas Tells FIFA to Cancel 2025 Club World Cup - ESPN.” ESPN.com, ESPN, 15 Oct. 2024, www.espn.com/soccer/story/_/id/41810716/laliga-chief-tebas-tells-fifa-cancel-2025-club-world-cup. Accessed 15 Mar. 2025.`
+                ],
+            ],
         }
         const subNavData = {
             'about':['context', 'exigence', 'perspective'],
             'context': ['Format','Reasons for Change', 'Player Fatigue', 'work-cited'],
             'exigence':['pro', 'con', 'concerns', 'work-cited'],
-            'perspective':['']
+            'perspective':['Player', 'League Directors', 'Infantino', 'Work-Cited']
         }
         const section = document.querySelector('.info-section')
         const citedContainer = document.querySelector('.work-cited')
@@ -234,11 +261,18 @@
                     if (className == 'sub-nav'){
                         console.log('scroll')
                         console.log(elements[index], elements)
-                        elements[index].scrollIntoView({ behavior: 'smooth', block: 'center' })
+                        // elements[index].scrollIntoView({ behavior: 'smooth', block: 'start' })
+                        // setTimeout(() => {
+                        //     window.scrollBy({ top: -50, behavior: "smooth" });
+                        // }, 300); 
+                        const scrollAmount = elements[index].getBoundingClientRect().top - 120 - error
+                        error += 1
+                        window.scrollBy({top: scrollAmount, behavior:'smooth'})
+                        // console.log(height, window.scrollY)
                     }   
                     //remove sub class style
                     if (className == 'main-nav-items'){
-                        frontImage.scrollIntoView({ behavior: 'smooth', block: 'center' })
+                        frontImage.scrollIntoView({ behavior: 'smooth', block: 'start' })
                         subNavs.forEach((sub) =>{
                             sub.style.setProperty('--color', 'rgb(255, 255, 255)')
                             lineStyle(sub, 'left', '0')
