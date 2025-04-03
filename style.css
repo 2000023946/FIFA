@@ -33,7 +33,17 @@
     --origin: left;
     --color: rgb(255, 255, 255);
 }
-
+.vid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.vid div{
+    width: fit-content;
+    height: fit-content;
+}
 .nav-item::before{
     position: absolute;
     content: '';
