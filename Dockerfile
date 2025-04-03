@@ -18,7 +18,7 @@ COPY pro.png /usr/share/nginx/html/pro.png
 COPY rodri.png /usr/share/nginx/html/rodri.png
 COPY stats.png /usr/share/nginx/html/stats.png
 COPY tabes.png /usr/share/nginx/html/tabes.png
-COPY styles.css /usr/share/nginx/html/styles.css
+COPY style.css /usr/share/nginx/html/style.css
 
 
 # Expose port 80
